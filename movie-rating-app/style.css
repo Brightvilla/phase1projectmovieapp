@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#movie-list {
+    margin-bottom: 30px;
+}
+
+#movies {
+    list-style: none;
+    padding: 0;
+}
+
+#movies li {
+    background: #a5caef;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rating-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#rating-form input, #rating-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #8d4848;
+}
+
+.rating-display {
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#rating-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#rating-form button:hover {
+    background: #0056b3;
+}

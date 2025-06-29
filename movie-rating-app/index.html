@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Rating App</h1>
+        <div id="movie-list">
+            <h2>Movies</h2>
+            <ul id="movies"></ul>
+        </div>
+        <div id="rating-form">
+            <h2>Rate a Movie</h2>
+            <input type="text" id="movie-title" placeholder="Movie Title" required>
+            <input type="number" id="movie-rating" min="1" max="10" placeholder="Rating (1-10)" required>
+            <button id="submit-rating">Send Movie Rating</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html
