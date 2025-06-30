@@ -26,7 +26,7 @@ movie-rating-app
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/movie-rating-app.git
+   git clone https://github.com/Brightvilla/movie-rating-app.git
    ```
 2. Navigate to the project directory:
    ```
@@ -38,8 +38,9 @@ movie-rating-app
 2. You can start rating movies right away!
 
 ## Features
-- Add ratings for movies.
+- Add ratings for  movies.
 - View average ratings for each movie.
+- Display horizontally the movie and rating
 - User-friendly interface with responsive design.
 
 ## Contributing
