@@ -44,6 +44,7 @@ movie-rating-app
 
 ## Contributing
 Feel free to submit issues or pull requests if you have suggestions or improvements for the app.
+## Author - Bright Mahonga
 
 ## License
 This project is open-source and available under the MIT License.
